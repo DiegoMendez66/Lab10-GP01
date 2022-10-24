@@ -18,6 +18,12 @@ public class ApplicationTest {
 		Application app = new Application();		
 		assertEquals(1 , app.restar(4, 3));		
 	}
+	
+	@Test
+	public void testMultiplicar() {
+		Application app = new Application();		
+		assertEquals(12 , app.multiplicar(4, 3));		
+	}
 }
 
 
